@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Huntoric</string>
+    <string name="huntoric">Huntoric</string>
+    <string name="guess_history_character">Guess History character</string>
+</resources>
