@@ -12,23 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Huntoric"
         tools:targetApi="31">
-
+        <activity
+            android:name=".LeaderboardActivity"
+            android:exported="false" />
         <!-- LoginActivity là màn hình khởi động -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- MainActivity -->
+        </activity> <!-- MainActivity -->
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
-
-        <!-- GameActivity -->
+            android:exported="true" /> <!-- GameActivity -->
         <activity
             android:name=".GameActivity"
             android:exported="false"

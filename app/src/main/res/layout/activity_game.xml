@@ -44,28 +44,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="16dp">
+        android:layout_margin="16dp"
+        >
 
         <!-- Yes Button -->
         <Button
             android:id="@+id/buttonYes"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="68dp"
             android:layout_weight="1"
-            android:text="Yes"
             android:gravity="center"
             android:padding="10dp"
+            android:text="Yes"
             android:textSize="16sp" />
 
         <!-- Rather Button -->
         <Button
             android:id="@+id/buttonRather"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="68dp"
             android:layout_weight="1"
-            android:text="Rather"
             android:gravity="center"
             android:padding="10dp"
+            android:text="Rather"
             android:textSize="16sp" />
 
         <!-- Don't Know Button -->
@@ -94,11 +95,11 @@
         <Button
             android:id="@+id/buttonNo"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="68dp"
             android:layout_weight="1"
-            android:text="No"
             android:gravity="center"
             android:padding="10dp"
+            android:text="No"
             android:textSize="16sp" />
     </LinearLayout>
 

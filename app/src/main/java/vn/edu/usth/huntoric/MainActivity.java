@@ -29,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, GameActivity.class);
             startActivity(intent);
         });
+        // Nút Leaderboard để chuyển sang LeaderboardActivity
+        ImageView buttonLeaderboard = findViewById(R.id.buttonLeaderboard);
+        buttonLeaderboard.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, LeaderboardActivity.class);
+            startActivity(intent);
+        });
     }
 }
